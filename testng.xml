@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="5">
+    <test name="Price and Vendor Tests">
+        <classes>
+            <class name="org.vlad.demo.tests.SeleniumTest"/>
+            <class name="org.vlad.demo.tests.SeleniumVendorTest"/>
+            <class name="org.vlad.demo.tests.SeleniumPriceAndVendorTest"/>
+            <class name="org.vlad.demo.tests.SeleniumPriceTest"/>
+        </classes>
+    </test>
+</suite>
