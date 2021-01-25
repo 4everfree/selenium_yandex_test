@@ -1,4 +1,4 @@
-package com.vlad.demo.selenium_test_ui;
+package org.vlad.demo.selenium_test_ui;
 
 import org.openqa.selenium.WebDriver;
 

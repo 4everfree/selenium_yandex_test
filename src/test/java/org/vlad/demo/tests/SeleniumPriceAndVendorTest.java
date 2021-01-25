@@ -1,8 +1,5 @@
 package org.vlad.demo.tests;
 
-import com.vlad.demo.selenium_test_ui.MainMarketPage;
-import com.vlad.demo.selenium_test_ui.ProductPage;
-import com.vlad.demo.selenium_test_ui.SearchPage;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
@@ -11,7 +8,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.vlad.demo.base.BaseTest;
-
+import org.vlad.demo.selenium_test_ui.*;
 import java.io.IOException;
 
 @Epic("Тестирование Яндекс.Маркета")

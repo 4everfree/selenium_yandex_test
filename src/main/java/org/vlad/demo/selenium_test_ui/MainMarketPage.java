@@ -1,4 +1,4 @@
-package com.vlad.demo.selenium_test_ui;
+package org.vlad.demo.selenium_test_ui;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MainMarketPage extends Page{
+public class MainMarketPage extends Page {
 
 	public String getWindowHandle() {
 		return windowHandle;

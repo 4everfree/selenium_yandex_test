@@ -1,8 +1,6 @@
 package org.vlad.demo.tests;
 
-import com.vlad.demo.selenium_test_ui.MainMarketPage;
-import com.vlad.demo.selenium_test_ui.ProductPage;
-import com.vlad.demo.selenium_test_ui.SearchPage;
+import org.vlad.demo.selenium_test_ui.*;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
